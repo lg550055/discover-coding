@@ -1,10 +1,10 @@
 # Discover Coding
-Discover Coding is an interactive website that shows the timing (and earnings potential) benefits of a high-quality bootcamp.
+Discover Coding is an interactive, responsive website that shows the timing (and earnings potential) benefits of a high-quality bootcamp.
 
 - Greets the user by name (on every page)
 - Shows that 5 of the top 10 business people in the world started as coders
-- Asks the use to click to discover how coding figures among the most in-demand professions
-- Asks the user to guess the time required to train in the top of the professions shown
+- Asks the user to click to discover how coding figures among the most in-demand professions
+- Asks the user to guess the time required to train in the top professions shown
 - On the last page, displays a chart comparing the time the user guessed vs the actual average vs bootcamps
 
 ---
