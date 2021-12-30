@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.2/dist/chart.min.js"></script>
-  <script src="js/guess.js"></script></head>
+  <script src="js/results.js"></script></head>
 <body>
   <header>
     <nav>
@@ -22,13 +22,16 @@
   <main>
     <section>
       <div>
-        <h1 id="name"><script>results()</script></h1>
+        <h1 id="name"><script>guest()</script></h1>
         <h2>Let's see how they stack vs a Bootcamp</h2>
         <br>
+        <div>
+          <canvas id="chart"></canvas>
+        </div>
+        <script>render()</script>
+        <br>
+        <h3>As you can see, Bootcamps rock!</h3>
       </div>
-      <div>
-        <canvas id="chart"></canvas>
-      </div>  
     </section>
   </main>
   <footer>
